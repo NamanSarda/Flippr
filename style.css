@@ -1,0 +1,260 @@
+body {
+  font-family: Raleway;
+  text-align: center;
+  background-color: #ffb66c;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 0 1% 0 3%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #594760;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.logo {
+  width: 5vw;
+}
+/* Navigation Bar */
+
+.navbar {
+  padding: 0.5rem 0 0.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 0.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 1.8vh 2vw 1vh;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+.center-s {
+  margin-left: 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 1vh;
+  flex: 1;
+}
+
+.search1 {
+  height: 6vh;
+  width: 34.5vw;
+  flex: 1;
+  margin-left: -2vw;
+  padding-left: 4px;
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  border-radius: 1vh;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.03);
+  outline-width: 1px;
+  outline-color: rgb(147, 147, 255);
+}
+
+.search1::placeholder {
+  padding-left: 1vw;
+  font-size: 16px;
+  border: none;
+}
+
+.searchi {
+  position: absolute;
+  z-index: 2;
+  height: 4vh;
+  right: 29vw;
+}
+
+.profile1 {
+  padding-left: 2vh;
+  margin-left: 2vh;
+  height: 6.7vh;
+  width: 4.3vw;
+  right: 1vw;
+}
+
+.uploadbtn {
+  height: 5.6vh;
+  margin-left: 7vw;
+}
+
+#carosel {
+  margin: 0;
+  padding: 0;
+  background-color: #ffb66c;
+}
+#carosel1 {
+  margin: 0;
+  padding: 0;
+  background-color: #ffb66c;
+}
+
+.body1 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slidetag {
+  margin: 2vw;
+}
+
+.body2 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1120px;
+  width: 100%;
+  padding: 40px 0;
+}
+.slide-container {
+  margin: 0 30px;
+  overflow: hidden;
+}
+.card {
+  background: #fff;
+  border-radius: 8px;
+}
+.card .image-box {
+  height: 200px;
+}
+.card .image-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px 8px 0 0;
+}
+.card .profile-details {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  padding: 15px;
+}
+.card .profile-details img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.profile-details .name {
+  font-size: 15px;
+  font-weight: 500;
+}
+.profile-details .job {
+  font-size: 12px;
+  font-weight: 500;
+  color: #4d4d4d;
+}
+
+.swiper-navBtn {
+  color: #000;
+  height: 40px;
+  width: 40px;
+  background: #fff;
+  border-radius: 50%;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 18px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-navBtn {
+    display: none;
+  }
+}
+
+/* About Us */
+@font-face {
+  src: url(Raleway-Regular.ttf);
+  font-family: Raleway;
+}
+
+.aboutus,
+h1 {
+  text-align: center;
+  font-family: Raleway;
+  font-weight: 500;
+  padding-top: 4.5vh;
+  font-size: 68px;
+  letter-spacing: 7px;
+}
+.aboutus {
+  color: #bd6386;
+}
+
+.About_us {
+  background-color: #fce0dd;
+  padding-bottom: 5vw;
+}
+.infoBox {
+  display: inline-block;
+  width: 40vw;
+  line-height: 26px;
+  padding: 20px;
+  color: #fce0dd;
+  height: 25%;
+  margin-top: 9%;
+  margin-left: 1%;
+  background-color: #bd6386;
+  border: 3px solid #bd6386;
+  letter-spacing: 2px;
+  border-radius: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bold {
+  text-decoration: none;
+  color: #fce0dd;
+  background-color: #bd6386;
+  font-weight: 800;
+  cursor: pointer;
+}

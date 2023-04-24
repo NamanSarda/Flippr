@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: Raleway;
+            src: url(Raleway-Regular.ttf);
+        }
+        body{
+            background-color: #243243; 
+        }
+        .heading{
+            background-color: #243243;
+            display: flex;
+            justify-content: center;
+        }
+        .contact-section{
+            background-color: #243243;
+            height: 450px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .text{
+            color:white;
+            font-family: Raleway;
+            font-weight: 700;
+        }
+        .text-form{
+            color:rgb(44, 36, 36);
+            font-family: Raleway;
+            font-weight: 700;
+        }
+        .form-container{
+            background-color: #D9D9D9;
+            height: 350px;
+            width: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            box-sizing: border-box;
+            box-shadow: 10px 10px 10px #1f1f20;
+        }
+        .form-heading{
+            display: flex;
+            justify-content: center;
+        }
+        .input-bar-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        input{
+            width: 200px;
+            height: 30px;
+            border: none;
+            border-radius: 20px;
+            padding: 4px;
+        }
+        input[type="text"]::placeholder{
+            text-align: center;
+        }
+        .submit-button{
+            width: 120px;
+            height: 30px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .submit-button:hover{
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <h1 class="text">CONTACT US</h1>
+    </div>
+    <div class="contact-section">
+        <div class="form-container">
+          <form action="">
+            <div class="form-heading"><h2 class="text-form">FORM</h2></div>
+            <div class="input-bar-container"><input type="text" placeholder="Name" ></div>
+            <div class="input-bar-container"><input type="text" placeholder="Number" ></div>
+            <div class="input-bar-container"><input type="text" placeholder="Feedback" ></div>
+            <div class="input-bar-container"><button class="submit-button">SUBMIT</button></div>
+          </form>
+        </div>
+
+    </div>
+</body>
+</html>
