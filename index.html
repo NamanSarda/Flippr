@@ -100,94 +100,11 @@
       <section id="carosel">
         <div class="container swiper">
           <div class="slide-container">
-            <div class="card-wrapper swiper-wrapper">
+            <div class="card-wrapper swiper-wrapper  videos" id="videos-container">
               <h1 style="color: #fff; text-align: left" class="slidetag">
                 Top Podcasts
               </h1>
-              <div class="card swiper-slide">
-                <div class="image-box">
-                  <!--<img src="images/showImg/fullDev.jpg" alt="" />-->
-                </div>
-                <div class="profile-details">
-                  <!--<img src="images/profile/profile1.jpg" alt="" />-->
-                  <div class="name-job">
-                    <h3 class="name">David Cardlos</h3>
-                    <h4 class="job">Full Stack Developer</h4>
-                  </div>
-                </div>
-              </div>
-              <div class="card swiper-slide">
-                <div class="image-box">
-                  <!--<img src="images/showImg/photographer.jpg" alt="" />-->
-                </div>
-                <div class="profile-details">
-                  <!--<img src="images/profile/profile2.jpg" alt="" />-->
-                  <div class="name-job">
-                    <h3 class="name">Siliana Ramis</h3>
-                    <h4 class="job">Photographer</h4>
-                  </div>
-                </div>
-              </div>
-              <div class="card swiper-slide">
-                <div class="image-box">
-                  <!--<img src="images/showImg/dataAna.jpg" alt="" />-->
-                </div>
-                <div class="profile-details">
-                  <!--<img src="images/profile/profile3.jpg" alt="" />-->
-                  <div class="name-job">
-                    <h3 class="name">Richard Bond</h3>
-                    <h4 class="job">Data Analyst</h4>
-                  </div>
-                </div>
-              </div>
-              <div class="card swiper-slide">
-                <div class="image-box">
-                  <!--<img src="images/showImg/appDev.jpg" alt="" />-->
-                </div>
-                <div class="profile-details">
-                  <!--<img src="images/profile/profile4.jpg" alt="" />-->
-                  <div class="name-job">
-                    <h3 class="name">Priase</h3>
-                    <h4 class="job">App Developer</h4>
-                  </div>
-                </div>
-              </div>
-              <div class="card swiper-slide">
-                <div class="image-box">
-                  <!--<img src="images/showImg/blogger.jpg" alt="" />-->
-                </div>
-                <div class="profile-details">
-                  <!--<img src="images/profile/profile5.jpg" alt="" />-->
-                  <div class="name-job">
-                    <h3 class="name">Dummy-1</h3>
-                    <h4 class="job">Blogger</h4>
-                  </div>
-                </div>
-              </div>
-              <div class="card swiper-slide">
-                <div class="image-box">
-                  <!--<img src="images/showImg/blogger.jpg" alt="" />-->
-                </div>
-                <div class="profile-details">
-                  <!--<img src="images/profile/profile5.jpg" alt="" />-->
-                  <div class="name-job">
-                    <h3 class="name">Dummy-2</h3>
-                    <h4 class="job">Blogger</h4>
-                  </div>
-                </div>
-              </div>
-              <div class="card swiper-slide">
-                <div class="image-box">
-                  <!--<img src="images/showImg/blogger.jpg" alt="" />-->
-                </div>
-                <div class="profile-details">
-                  <!--<img src="images/profile/profile5.jpg" alt="" />-->
-                  <div class="name-job">
-                    <h3 class="name">Dummy-3</h3>
-                    <h4 class="job">Blogger</h4>
-                  </div>
-                </div>
-              </div>
+
             </div>
           </div>
           <div class="swiper-button-next swiper-navBtn"></div>
@@ -312,7 +229,18 @@
         location. Thank you for choosing us!
       </div>
     </section>
+    <section class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="player"></div>
+      </div>
+    </section>
+
 
     <script src="index.js"></script>
+    <script src="script.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+
+
   </body>
 </html>
